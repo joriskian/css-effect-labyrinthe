@@ -22,7 +22,7 @@ function App() {
         <div class="div14 vertical"></div>
         <div class="div15"></div>
         <div class="div16">
-          <h1>Titre de l'appli</h1>
+          <h1>LOREM IPSUM NULLA TEMPOR</h1>
           <p>
             Lorem nulla tempor anim consequat cupidatat cillum qui exercitation
             ut Lorem reprehenderit ut. Ex deserunt nisi minim mollit mollit

@@ -151,9 +151,9 @@ code {
 }
 
 .wrapper > div {
-  border: solid 1px rgb(205, 199, 46);
+  /* border: solid 1px rgb(205, 199, 46); */
 }
-@media (max-width: 742px) {
+@media (max-width: 970px) {
   .vertical {
     background-size: contain;
   }
