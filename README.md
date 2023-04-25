@@ -1,6 +1,6 @@
 # A simple CSS effect to best understand responsivity
 
-No javascript, only css and html with simple rule on scc
+No javascript, only css and html with simple rules on CSS.
 
 # explanations
 
