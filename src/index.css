@@ -23,7 +23,7 @@ code {
   grid-template-rows: 5vw 20vw 1fr 20vw 1fr 20vw 1fr 20vw 5vw;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: #cb3737;
+  background-color: #b28989;
 }
 .div1 {
   grid-area: 2 / 7 / 3 / 8;
@@ -75,9 +75,8 @@ code {
 
   /**  gare top*/
   grid-area: 2/2 / 3 / 6;
-  /* background-image: url('../public/gare.jpg'); */
+
   background-size: cover;
-  /* margin: 20px 0 20px 20px; */
 }
 .div8 h1 {
   margin-right: 2rem;
@@ -137,17 +136,25 @@ code {
 }
 .div18 {
   grid-area: 8 / 2 /8 /5;
-  background-color: blue;
+  border-radius: 20px;
+  background-color: rgb(42, 40, 34);
+}
+.div18 p {
+  font-family: 'Train One', cursive;
+  font-size: 3.5vw;
+  color: aliceblue;
 }
 .div19 {
-  grid-area: 3/3 / 4 / 6;
-  height: fit-content;
-  margin: auto;
+  /** train */
+  grid-area: 3/2 / 4 / 7;
 }
-.div19 p {
-  font-family: 'Train One', cursive;
-  color: white;
-  font-size: 1.5rem;
+.train {
+  width: 30vw;
+  height: 30vw;
+  background-image: url('../public/train.svg');
+  background-repeat: no-repeat;
+  margin: auto;
+  background-color: rgba(137, 43, 226, 0.329);
 }
 
 .wrapper > div {

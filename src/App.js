@@ -56,13 +56,10 @@ function App() {
           </div>
         </div>
         <div class="div18">
-          <p>Et nous voici enfin arrivé</p>
+          <p>Here we are at our destination</p>
         </div>
         <div class="div19">
-          <p>
-            we hope you enjoy this trip. All was done with CSS and html.
-            Javascript free...
-          </p>
+          <div class="train"></div>
         </div>
       </div>
     </div>
