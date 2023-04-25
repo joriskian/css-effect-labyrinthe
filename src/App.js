@@ -11,13 +11,15 @@ function App() {
         <div class="div5"></div>
         <div class="div6"></div>
         <div class="div7"></div>
-        <div class="div8"></div>
+        <div class="div8">
+          <h1>WELCOME</h1>
+        </div>
         <div class="div9"></div>
-        <div class="div10"></div>
+        <div class="div10 vertical"></div>
         <div class="div11"></div>
-        <div class="div12"></div>
+        <div class="div12 vertical"></div>
         <div class="div13"></div>
-        <div class="div14"></div>
+        <div class="div14 vertical"></div>
         <div class="div15"></div>
         <div class="div16">
           <h1>Titre de l'appli</h1>
@@ -32,14 +34,36 @@ function App() {
           </p>
         </div>
         <div class="div17">
+          <div class="flex">
+            <p>
+              Tempor quis Lorem Lorem aliqua et. Cupidatat ullamco mollit Lorem
+              enim reprehenderit dolore in ullamco eu eiusmod non nulla. Nisi
+              incididunt velit occaecat voluptate est reprehenderit consequat
+              sunt.
+            </p>
+            <p>
+              Tempor quis Lorem Lorem aliqua et. Cupidatat ullamco mollit Lorem
+              enim reprehenderit dolore in ullamco eu eiusmod non nulla. Nisi
+              incididunt velit occaecat voluptate est reprehenderit consequat
+              sunt.
+            </p>
+            <p>
+              Tempor quis Lorem Lorem aliqua et. Cupidatat ullamco mollit Lorem
+              enim reprehenderit dolore in ullamco eu eiusmod non nulla. Nisi
+              incididunt velit occaecat voluptate est reprehenderit consequat
+              sunt.
+            </p>
+          </div>
+        </div>
+        <div class="div18">
+          <p>Et nous voici enfin arrivé</p>
+        </div>
+        <div class="div19">
           <p>
-            Tempor quis Lorem Lorem aliqua et. Cupidatat ullamco mollit Lorem
-            enim reprehenderit dolore in ullamco eu eiusmod non nulla. Nisi
-            incididunt velit occaecat voluptate est reprehenderit consequat
-            sunt.
+            we hope you enjoy this trip. All was done with CSS and html.
+            Javascript free...
           </p>
         </div>
-        <div class="div18"></div>
       </div>
     </div>
   );
