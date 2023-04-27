@@ -20,10 +20,10 @@ code {
 .wrapper {
   display: grid;
   grid-template-columns: 5vw 20vw repeat(4, 1fr) 20vw 5vw;
-  grid-template-rows: 5vw 20vw 1fr 20vw 1fr 20vw 1fr 20vw 5vw;
+  grid-template-rows: 5vw 20vw auto 20vw 1fr 20vw 1fr 20vw 5vw;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: #b28989;
+  background-color: darkgray;
 }
 .div1 {
   grid-area: 2 / 7 / 3 / 8;
@@ -79,8 +79,11 @@ code {
   background-size: cover;
 }
 .div8 h1 {
-  margin-right: 2rem;
-  text-align: end;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 20px;
+
+  text-align: center;
 }
 .div9 {
   grid-area: 2 / 6 / 3 / 7;
@@ -137,7 +140,7 @@ code {
 .div18 {
   grid-area: 8 / 2 /8 /5;
   border-radius: 20px;
-  background-color: rgb(42, 40, 34);
+  background-color: black;
 }
 .div18 p {
   font-family: 'Train One', cursive;
@@ -146,23 +149,32 @@ code {
 }
 .div19 {
   /** train */
+
+  display: flex;
+  flex-direction: column;
   grid-area: 3/2 / 4 / 7;
+  justify-content: center;
 }
 .train {
-  width: 30vw;
-  height: 30vw;
+  width: 400px;
+  height: 400px;
   background-image: url('../public/train.svg');
+  background-size: contain;
   background-repeat: no-repeat;
   margin: auto;
-  background-color: rgba(137, 43, 226, 0.329);
+  /* background-color: rgba(137, 43, 226, 0.329); */
 }
 
 .wrapper > div {
-  /* border: solid 1px rgb(205, 199, 46); */
+  /* border: solid 2px rgb(205, 199, 46); */
 }
 @media (max-width: 970px) {
   .vertical {
     background-size: contain;
+  }
+  .div19 {
+  }
+  .div10 {
   }
 }
 @media (min-width: 1024px) {
