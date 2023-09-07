@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function First() {
   return (
@@ -12,7 +12,7 @@ function First() {
         <div class="div6"></div>
         <div class="div7"></div>
         <div class="div8">
-          <h1>WELCOME</h1>
+          <h1>THE STATION</h1>
         </div>
         <div class="div9"></div>
         <div class="div10 vertical"></div>
@@ -63,7 +63,7 @@ function First() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default First
+export default First;
